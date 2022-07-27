@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i will try to tailwind</title>
+    <!-- tailwidn css -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+  <header>
+
+  </header>
+    <main>
+      <section>
+        <div class="container mx-auto sm:flex justify-around my-5 align-middle">
+          <div class="contentPrent px-4 sm:w-4/12">
+            <h1 class="text-4xl font-bold pt-7">
+              <span class="block text-yellow-400">Be the Penguin</span>
+              <span>of Winter</span>
+            </h1>
+            <p class="font-semibold text-sm py-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque optio, modi ab delectus laborum?</p>
+            <button class="uppercase rounded-xl bg-green-600 py-4 px-5 text-white"> Buy Now </button>
+          </div>
+          <div class="imgageDiv">
+            <img src="./images/model.png" alt="">
+          </div>
+        </div>
+      </section>
+      <!-- this is our  cloction section design  -->
+      <section>
+        <div class="container mx-auto">
+           <div class="grid md:grid-cols-2 lg:grid-cols-3">
+            <div class="card m-4 border rounded-lg p-3">
+              <img src="./images/jacket-1.png" alt="">
+              <div class="card-body">
+                <h2 class="text-3xl font-semibold uppercase py-4">the Quint bag</h2>
+                <p class="text-2xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem?</p>
+                
+              </div>
+             </div>
+            <div class="card m-4 border rounded-lg p-3">
+              <img src="./images/jacket-2.png" alt="">
+              <div class="card-body">
+                <h2 class="text-3xl font-semibold uppercase py-4">the Quint bag</h2>
+                <p class="text-2xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem?</p>
+                
+              </div>
+             </div>
+            <div class="card m-4 border rounded-lg p-3">
+              <img src="./images/jacket-3.png" alt="">
+              <div class="card-body">
+                <h2 class="text-3xl font-semibold uppercase py-4">the Quint bag</h2>
+                <p class="text-2xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, exercitationem?</p>
+                
+              </div>
+             </div>
+           </div>
+        </div>
+      </section>
+      
+    </main>
+    <footer class="bg-green-300 mt-7">
+      <div class="container mx-auto ">
+        <h2 class="text-center text-white text-3xl py-4 space-x-2 capitalize">thsi site creat bay tailwindcss @copyright by <a class="hover:underline hover:text-red" href="https://www.tailwindcss.com">Tailwindcss</a></h2>
+      </div>
+    </footer>
+</body>
+</html>
